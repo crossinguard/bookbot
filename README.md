@@ -2,6 +2,8 @@
 
 Tutorial project based on the course "Build a local dev environment" from [boot.dev](https://www.boot.dev).
 
+Using Python, main.py will use a `books/book_name` to generate a report of the number of words within the text file as well as character counts for alphabetic characters.
+
 ## NOTES
 
 ### General
@@ -26,9 +28,9 @@ echo "hello there"
 
 #### Create repo
 
--  create project repo on github.com
--  from a local folder use git to clone a github.com repo 
-    - `git clone https://github.com/username/repo_name`
+- create project repo on github.com
+- from a local folder use git to clone a github.com repo
+  - `git clone https://github.com/username/repo_name`
 
 #### Commit changes
 
