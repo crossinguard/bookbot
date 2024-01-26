@@ -6,7 +6,7 @@ Tutorial project based on the course "Build a local dev environment" from [boot.
 
 ### General
 
-update PATH | `export PATH=$PATH:/some/new/directory`
+- `export PATH=$PATH:/some/new/directory` | update PATH
 
 ```bash
 # Linux or WSL (bash)
@@ -28,9 +28,16 @@ echo "hello there"
 
 -  create project repo on github.com
 -  from a local folder use git to clone a github.com repo 
-  - `git clone https://github.com/username/repo_name`
+    - `git clone https://github.com/username/repo_name`
 
 #### Commit changes
 
 - `git add .` | stage the change
-- `git commit -m "commit message"` | commit the change with comment
+- `git commit -m "commit message"` | commit the change locally with comment
+- `git push origin main` | push the change to github.com
+
+### Install Python
+
+- `pyenv install -v 3.12.1` | install Python 3.12.1
+- `pyenv global 3.12.1` | set version as default
+- `python --version` | verify
